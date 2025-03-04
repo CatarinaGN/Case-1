@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/CatarinaGN/Case-1/main/Customer%20Segmentation%20Analysis%20in%20Lisbon%20Hotels.png" width="100%">
+  <img src="Customer Segmentation Analysis in Lisbon Hotels.png" width="100%">
 </p>
 
 <h3 align="center">📍 University: Nova IMS</h3>
