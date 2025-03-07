@@ -1,15 +1,7 @@
 Feature Set;Transformation;Dimensionality Reduction;Clusters;Silhouette Score;Calinski-Harabasz;Davies-Bouldin
-Categorical without SR & Channel;Winsorization + Log Scaling;UMAP;2;0.389947924;57168.34342;1.065000237
-Categorical without SR;Winsorization + Log Scaling;UMAP;2;0.389367049;57064.10771;1.066521239
-All Categorical;Winsorization + Log Scaling;UMAP;2;0.388970964;56994.86486;1.067550495
-Categorical without SR & Channel;Sem Winsorization + Log Scaling;UMAP;2;0.376749556;54029.48259;1.114895227
-Categorical without SR;Sem Winsorization + Log Scaling;UMAP;2;0.37616869;53931.47107;1.116162879
-All Categorical;Sem Winsorization + Log Scaling;UMAP;2;0.375766029;53866.53024;1.117240589
-Only Numeric;Winsorization + Log Scaling;UMAP;2;0.397576;58494.85288;1.047249
 Only Numeric;Winsorization + MinMax;UMAP;5;0.395421;45116.83246;0.930856
 Only Numeric;Sem Winsorization + Log Scaling;UMAP;5;0.389437;48310.22524;0.954855
 Only Numeric;Sem Winsorization + Log Scaling;UMAP;4;0.388903;48362.65011;1.045953
-Only Numeric;Sem Winsorization + Log Scaling;UMAP;2;0.384428;55277.64759;1.098817
 Only Numeric;Winsorization + MinMax;UMAP;4;0.381123;41303.37082;1.02015
 Categorical without SR & Channel;Sem Winsorization + Log Scaling;UMAP;4;0.375605899;46578.04441;1.072266244
 Categorical without SR;Sem Winsorization + Log Scaling;UMAP;4;0.374688834;46434.08021;1.074821122
@@ -21,30 +13,19 @@ All Categorical;Winsorization + MinMax;UMAP;5;0.37152268;44907.61871;0.944892517
 All Categorical;Sem Winsorization + Log Scaling;UMAP;5;0.371321152;45866.90705;0.985246324
 Categorical without SR;Winsorization + MinMax;UMAP;5;0.369226342;42897.27269;0.936391616
 Categorical without SR;Winsorization + MinMax;UMAP;4;0.366663126;40496.42861;0.933379519
-Only Numeric;Winsorization + Log Scaling;PCA;2;0.36465;48659.1341;1.057689
 Categorical without SR & Channel;Winsorization + MinMax;UMAP;5;0.364213153;41641.2141;1.012669766
 Categorical without SR & Channel;Sem Winsorization + Log Scaling;UMAP;3;0.362978287;47641.63994;1.096268026
 Only Numeric;Winsorization + Log Scaling;UMAP;4;0.362708;48361.67375;1.022163
 Categorical without SR & Channel;Winsorization + MinMax;UMAP;4;0.362428372;39618.65366;0.914166917
 Categorical without SR;Sem Winsorization + Log Scaling;UMAP;3;0.362203892;47525.54316;1.097589692
 All Categorical;Winsorization + MinMax;UMAP;4;0.362102833;41131.45356;0.91935176
-Categorical without SR & Channel;Sem Winsorization + Power Transformation;UMAP;2;0.339961077;47866.07236;1.195774202
 All Categorical;Sem Winsorization + Log Scaling;UMAP;3;0.361642514;47446.83783;1.099667318
 Only Numeric;Winsorization + Log Scaling;UMAP;3;0.358521;50792.21126;1.041148
-Only Numeric;Sem Winsorization + Log Scaling;PCA;2;0.354616;46494.96392;1.070775
 Categorical without SR & Channel;Winsorization + Log Scaling;UMAP;5;0.352193721;43437.09437;0.941907277
-Categorical without SR;Sem Winsorization + Power Transformation;UMAP;2;0.326068134;43949.64786;1.248855967
-All Categorical;Sem Winsorization + Power Transformation;UMAP;2;0.315416325;41549.92324;1.279502556
-Categorical without SR;Winsorization + MinMax;UMAP;2;0.314455443;34431.75283;1.376251095
-All Categorical;Winsorization + MinMax;UMAP;2;0.310849127;33322.20139;1.390074657
 Categorical without SR;Winsorization + Log Scaling;UMAP;5;0.350968237;43283.67281;0.945949697
-Categorical without SR & Channel;Winsorization + MinMax;UMAP;2;0.303356284;33100.44257;1.414265907
 Categorical without SR & Channel;Winsorization + Log Scaling;UMAP;4;0.35048446;46651.46435;1.049754525
-Categorical without SR & Channel;Winsorization + Standardization;UMAP;2;0.297540219;35265.40752;1.386144559
 Only Numeric;Winsorization + Log Scaling;UMAP;5;0.350127;45464.82748;1.026799
-Categorical without SR;Winsorization + Standardization;UMAP;2;0.291571342;34222.74831;1.410671401
 Categorical without SR;Winsorization + Log Scaling;UMAP;4;0.349548424;46509.33366;1.052014402
-All Categorical;Winsorization + Standardization;UMAP;2;0.286727679;33368.797;1.427378922
 All Categorical;Winsorization + Log Scaling;UMAP;4;0.348898275;46411.55759;1.053948409
 Categorical without SR & Channel;Winsorization + Log Scaling;UMAP;3;0.348747517;49347.96617;1.063549202
 Categorical without SR;Winsorization + Log Scaling;UMAP;3;0.348001178;49227.63072;1.066190683
@@ -53,22 +34,15 @@ All Categorical;Winsorization + Log Scaling;UMAP;3;0.3474532;49145.37276;1.06707
 Categorical without SR;Winsorization + MinMax;UMAP;3;0.335639799;35998.09537;1.215286343
 All Categorical;Winsorization + Log Scaling;UMAP;5;0.334577384;43335.04795;1.060599931
 Categorical without SR & Channel;Winsorization + MinMax;UMAP;3;0.333467999;35175.46647;1.234126313
-Categorical without SR & Channel;Winsorization + Log Scaling;PCA;2;0.273501631;32276.45653;1.381307829
 All Categorical;Winsorization + MinMax;UMAP;3;0.329592758;35716.28873;1.207670681
-Only Numeric;Winsorization + MinMax;UMAP;2;0.314323;34254.94765;1.383549
 Categorical without SR & Channel;Winsorization + MinMax;PCA;5;0.308089895;13966.38062;1.680876988
 Categorical without SR & Channel;Winsorization + Standardization;UMAP;3;0.300583785;36727.77422;1.154353495
 Categorical without SR;Winsorization + Standardization;UMAP;3;0.292353263;35233.86873;1.172772648
-Categorical without SR;Winsorization + Log Scaling;PCA;2;0.268404269;31332.79787;1.405542025
-Categorical without SR & Channel;Sem Winsorization + Log Scaling;PCA;2;0.266885079;31528.83815;1.389198735
 Categorical without SR & Channel;Winsorization + Standardization;UMAP;5;0.287343764;34226.91782;1.217658618
 All Categorical;Winsorization + Standardization;UMAP;3;0.286122263;34095.59136;1.208482828
-All Categorical;Winsorization + Log Scaling;PCA;2;0.264407755;30679.05067;1.420784955
 Categorical without SR & Channel;Winsorization + Standardization;UMAP;4;0.284954106;35051.97135;1.165099919
-Categorical without SR;Sem Winsorization + Log Scaling;PCA;2;0.261954908;30646.21439;1.413000011
 Categorical without SR & Channel;Sem Winsorization + Power Transformation;UMAP;5;0.282360814;32453.9077;1.127888909
 All Categorical;Sem Winsorization + Power Transformation;UMAP;5;0.281823271;28772.9509;1.214600963
-All Categorical;Sem Winsorization + Log Scaling;PCA;2;0.257837406;30033.82034;1.428836389
 Only Numeric;Sem Winsorization + Log Scaling;PCA;4;0.281061;37915.59144;0.994417
 Categorical without SR & Channel;Sem Winsorization + Power Transformation;UMAP;3;0.279875982;36619.82922;1.364223022
 Only Numeric;Winsorization + Log Scaling;PCA;4;0.278536;40048.00601;0.996341
@@ -86,36 +60,26 @@ Only Numeric;Winsorization + MinMax;PCA;4;0.267676;21788.30427;1.316298
 All Categorical;Sem Winsorization + Power Transformation;UMAP;3;0.265201951;32089.94355;1.449068228
 Categorical without SR & Channel;Winsorization + MinMax;PCA;4;0.264512741;13151.95696;1.772968872
 All Categorical;Sem Winsorization + Power Transformation;UMAP;4;0.262150119;29121.68707;1.332703228
-Categorical without SR & Channel;Winsorization + Standardization;PCA;2;0.168301898;9284.830386;2.456896947
-Categorical without SR & Channel;Winsorization + MinMax;PCA;2;0.167649775;14995.03556;1.889853906
 Categorical without SR;Sem Winsorization + Power Transformation;UMAP;4;0.261743064;29520.04797;1.272763344
 All Categorical;Winsorization + MinMax;PCA;5;0.258062612;10629.14413;1.880883609
 Only Numeric;Winsorization + MinMax;PCA;3;0.255682;23555.3194;1.421122
-Only Numeric;Winsorization + MinMax;PCA;2;0.248736;21365.31616;1.735674
 Only Numeric;Winsorization + MinMax;PCA;5;0.248664;20257.66757;1.303821
 Only Numeric;Sem Winsorization + Log Scaling;PCA;5;0.233043;35367.37278;1.136584
 Categorical without SR;Winsorization + MinMax;PCA;4;0.232189087;11365.82463;1.872466889
-Categorical without SR;Winsorization + Standardization;PCA;2;0.154976342;8248.487768;2.571575167
-Categorical without SR;Winsorization + MinMax;PCA;2;0.151601989;13247.40574;2.022141784
-All Categorical;Winsorization + Standardization;PCA;2;0.148932348;7475.97558;2.757783539
 Only Numeric;Winsorization + Log Scaling;PCA;5;0.231168;37303.44735;1.148478
 All Categorical;Winsorization + MinMax;PCA;4;0.222105428;10449.38837;1.958342578
 Categorical without SR & Channel;Winsorization + MinMax;PCA;3;0.218683006;13071.94082;1.843354086
 Categorical without SR;Winsorization + MinMax;PCA;3;0.189684598;11253.69348;1.949652268
-All Categorical;Winsorization + MinMax;PCA;2;0.142546357;12222.60324;2.11566213
 Categorical without SR & Channel;Sem Winsorization + Power Transformation;PCA;5;0.188559365;7591.082769;2.169129274
 Categorical without SR;Sem Winsorization + Log Scaling;PCA;4;0.182005709;20999.94455;1.389611253
 Categorical without SR & Channel;Winsorization + Log Scaling;PCA;4;0.181429502;22164.73038;1.388531522
 All Categorical;Winsorization + MinMax;PCA;3;0.181124843;10536.61828;2.025005759
 Categorical without SR & Channel;Sem Winsorization + Log Scaling;PCA;3;0.180460537;23642.03284;1.680582623
-Categorical without SR;Sem Winsorization + Power Transformation;PCA;2;0.119184475;8568.4257;2.778670924
-Categorical without SR & Channel;Sem Winsorization + Power Transformation;PCA;2;0.114475648;9405.201455;2.679751308
 All Categorical;Sem Winsorization + Log Scaling;PCA;4;0.178725039;20454.92207;1.409018613
 Categorical without SR;Winsorization + Log Scaling;PCA;4;0.176675707;21342.39264;1.414961157
 Categorical without SR;Sem Winsorization + Log Scaling;PCA;3;0.176002705;22898.73808;1.710010137
 Categorical without SR & Channel;Winsorization + Standardization;PCA;5;0.175294761;7824.158373;1.934817135
 Categorical without SR & Channel;Winsorization + Log Scaling;PCA;3;0.174709564;23841.33629;1.707636139
-All Categorical;Sem Winsorization + Power Transformation;PCA;2;0.105415284;7771.048363;2.897818252
 All Categorical;Winsorization + Log Scaling;PCA;4;0.173597457;20764.27655;1.435636771
 All Categorical;Sem Winsorization + Log Scaling;PCA;3;0.172080542;22377.69762;1.734819961
 Categorical without SR;Winsorization + Log Scaling;PCA;3;0.169796152;23057.81961;1.739878095
